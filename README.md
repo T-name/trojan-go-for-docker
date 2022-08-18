@@ -13,6 +13,8 @@ docke安装trojan-go
 docker-compose up -d
 ```
 
-顺便附上客户端配置文件 trojan-go.yml  需要修改里面内容
+顺便附上模板文件 需要修改里面内容
+    config.json  //服务的启动配置
+    trojan-go.yml    //客户端连接配置
     
 
