@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+        nginx:
+            image: nginx
+            container_name: nginx
+            restart: always
+            network_mode: "host"
+        trojan-go:
+            image: teddysun/trojan-go
+            container_name: trojan-go
+            restart: always
+            network_mode: "host"
+            volumes:
+                - /etc/trojan-go:/etc/trojan-go
