@@ -11,7 +11,7 @@ docker安装trojan-go
     
 操作：  
     将ssl证书文件和config.json文件放置到 /etc/trojan-go/ 文件夹下  
-    将docker-compose.yaml 文件上传到服务器,在docker-compose.yaml文件所在目录执行如下命令即可   
+    将docker-compose.yaml 文件上传到服务器上, 在docker-compose.yaml文件所在目录执行如下命令即可   
 ```
 docker-compose up -d
 ```
