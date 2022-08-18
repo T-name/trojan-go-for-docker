@@ -1,4 +1,4 @@
-docke安装trojan-go
+docker安装trojan-go
 
 前提要求：  
     是否安装docker     
