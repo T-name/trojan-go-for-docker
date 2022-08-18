@@ -3,9 +3,9 @@ docke安装trojan-go
 前提要求：
     是否安装docker   是否安装docker-compose
 准备：
-    需要提前准备
-    ssl证书文件    //用于https请求
-    config.json 文件   //用于trojan-go的启动
+    需要提前准备  
+    ssl证书文件    //用于https请求  
+    config.json 文件   //用于trojan-go的启动  
     
 
 复制 docker-compose.yaml 文件上传到服务器,在docker-compose.yaml文件所在目录执行如下命令即可   
