@@ -1,7 +1,9 @@
 docke安装trojan-go
 
 前提要求：
-    是否安装docker   是否安装docker-compose
+    是否安装docker     
+    是否安装docker-compose  
+    检查域名解析是否正常
 准备：
     需要提前准备  
     ssl证书文件    //用于https请求  
@@ -13,8 +15,8 @@ docke安装trojan-go
 docker-compose up -d
 ```
 
-顺便附上模板文件 需要修改里面内容
-    config.json  //服务的启动配置
-    trojan-go.yml    //客户端连接配置
+顺便附上模板文件 需要修改里面内容  
+    config.json  //服务的启动配置  
+    trojan-go.yml    //客户端连接配置  
     
 
