@@ -1,6 +1,6 @@
 docke安装trojan-go
 
-前提要求：
+前提要求：  
     是否安装docker     
     是否安装docker-compose  
     检查域名解析是否正常
