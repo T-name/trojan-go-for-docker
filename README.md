@@ -18,7 +18,7 @@ docker-compose up -d
 
 
 顺便附上模板文件 需要修改里面内容  
-    config.json  //服务的启动配置  
+    config.json  //服务端的启动配置  
     trojan-go.yml    //客户端连接配置  
     
 
