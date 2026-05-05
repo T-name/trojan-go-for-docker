@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  hysteria:
+    image: tobyxdd/hysteria:latest
+    container_name: hysteria
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - /etc/hysteria/config.yaml:/etc/hysteria/config.yaml:ro
+      - /etc/hysteria/server.pem:/etc/hysteria/server.pem:ro
+      - /etc/hysteria/server.key:/etc/hysteria/server.key:ro
+    command: ["server", "-c", "/etc/hysteria/config.yaml"]
